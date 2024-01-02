@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS Overview</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="row justify-between">
+    <a href="./highscores.html">HighScore</a>
+    <h3 id="time-output">Time: 0</h3>
+
+  </header>
+
+  <div class="start-wrap text-center">
+    <h2>Coding Quiz Challenges</h2>
+    <p>Welcome to JS fundamental quiz Challenge. Have fun!</p>
+    <button id="start">Start Quiz</button>
+  </div>
+  
+  <div class="question-wrap hide">
+    <h2 class="question-text"></h2>
+    <div class="choices"></div>
+    <p class="answer-alert">Wrong!</p>
+  </div>
+
+  <div class="score-data text-center hide">
+    <h2 id="score-Results"></h2>
+    <p>Save Your Score:</p>
+    <input id="initial-input" type="text" placeholder="Enter Your Initials">
+    <button id="save-score"> Save</button>
+  </div>
+
+  <script src="js/questions.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

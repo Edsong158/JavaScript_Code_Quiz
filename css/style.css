@@ -1,0 +1,26 @@
+* {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+}
+
+.start-wrap {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.hide {
+  display: none;
+}
+
+body {
+  background-color: lavender;
+}
+
+
